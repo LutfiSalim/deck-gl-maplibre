@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore specific JSON file
+data.json
+AIS123_20230401.parquet
+AIS123_20230401.json
+AIS123_20230401FULLFORMAT.json
+AIS123_20230108.json
+AIS123_20230108_10000.json
+AIS123_20230108_10000.json
+AIS123_20230108_100000.json
+AIS123_20230108_500000.json
+AIS123_20230108_1000000.json
+AIS123_20230108_10000000.json
